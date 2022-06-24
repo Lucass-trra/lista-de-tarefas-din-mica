@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+h1 {
+    text-align: center;
+    size: 2em;
+}
+
+h1::first-letter {
+    color: goldenrod;
+    size: 3em;
+}
