@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-h1 {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(32, 29, 29);
+}
+
+h1{
+    border: 2px solid red;
     text-align: center;
-    size: 2em;
+    font-size: 2.8em;
+    color: rgb(177, 175, 175);
+    font-family:googleapis;
+   
 }
 
 h1::first-letter {
-    color: goldenrod;
-    size: 3em;
+    color: gold;
+    font-size: 4em;
+}
+
+#apresentacao_header {
+    border: 2px solid red;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image:-webkit-linear-gradient(rgb(54, 50, 50),rgb(160, 28, 149));
 }
