@@ -11,12 +11,11 @@ html {
 }
 
 h1{
-    border: 2px solid red;
+   
     text-align: center;
     font-size: 2.8em;
     color: rgb(177, 175, 175);
     font-family:googleapis;
-   
 }
 
 h1::first-letter {
@@ -25,9 +24,27 @@ h1::first-letter {
 }
 
 #apresentacao_header {
-    border: 2px solid red;
     width: 100%;
     height: 300px;
     position: relative;
     background-image:-webkit-linear-gradient(rgb(54, 50, 50),rgb(160, 28, 149));
+}
+
+input,button {
+    margin-top: 5%;
+    padding: 10px;
+    margin-left: 40%;
+    
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(190, 182, 182);
+    margin-left: 0.5%;
+}
+
+button:hover {
+    background-color: azure;
+    border: 4px solid black;
+    size: 20px;
 }
