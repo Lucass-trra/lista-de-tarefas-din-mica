@@ -6,35 +6,37 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: rgb(32, 29, 29);
+html {  
+    background-image:linear-gradient(to left,rgba(4, 4, 4, 0.6),rgba(7, 7, 7, 0.7)),
+    url(./images/papel-de-parede-branco-em-estilo-de-papel-3d_23-2148397932.webp);                  
 }
 
+
 h1{
-   
     text-align: center;
-    font-size: 2.8em;
+    font-size: 2em;
     color: rgb(177, 175, 175);
     font-family:googleapis;
 }
 
 h1::first-letter {
     color: gold;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #apresentacao_header {
     width: 100%;
-    height: 300px;
-    position: relative;
-    background-image:-webkit-linear-gradient(rgb(54, 50, 50),rgb(160, 28, 149));
+    height: 250px;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 10px 10px 10px rgba(102, 102, 102, 0.7);
+    position: relative;     
+    background-image:linear-gradient(to left,rgb(27, 25, 25),rgb(160, 28, 149));
 }
 
-input,button {
+input,button {  
     margin-top: 5%;
     padding: 10px;
     margin-left: 40%;
-    
     border-radius: 10px;
 }
 
@@ -45,6 +47,24 @@ button {
 
 button:hover {
     background-color: azure;
-    border: 4px solid black;
-    size: 20px;
 }
+
+input:hover {
+    background-color: azure;
+}
+
+h4 {
+    color: rgb(188, 188, 188);
+    font-size: large;
+}
+
+img {
+    width: 70px;
+    margin-left: 30px;
+}
+
+#contato_header {
+    display: inline-block;
+    margin-left: 40%;
+}
+
